@@ -186,7 +186,7 @@ def menu(exits):
         print_menu(exits)
 
         # Read player's input
-        player_input = input("where do you want to go next?")
+        player_input = input("")
 
         # Normalise the input
         player_input = normalise_input(player_input)
